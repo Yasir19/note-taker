@@ -3,6 +3,7 @@ const path = require('path');
 const router = require('express').Router();
 const notes = require('../../db/db');
 const uuid = require('../../utils/uuid');
+
 //endpoint to get the stored notes
 router.get('/notes', (req,res)=>{
     fs.readFile('./db/db.json', 'utf8', (err,data)=>{
@@ -14,6 +15,8 @@ router.get('/notes', (req,res)=>{
         }
     });
 });
+
+
 // endpoint to post new notes 
 router.post('/notes',(req, res)=>{
     const {title, text } = req.body;
@@ -54,6 +57,8 @@ res.json(response);
         });
     }
 });
+
+
 router.delete('/notes/:id',(req,res)=>{
      console.log("req params", req.params.id)
      const deletedItem = notes.filter(({ id }) => id != req.params.id);

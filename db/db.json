@@ -1,42 +1,12 @@
 [
   {
     "title": "Test Title",
-    "text": "Test text"
+    "text": "Test text",
+    "id": "ce8f"
   },
   {
-    "title": "first note",
-    "text": "did it work?"
-  },
-  {
-    "title": "second note",
-    "text": "i may make it work "
-  },
-  {
-    "title": "second note",
-    "text": "i may make it work "
-  },
-  {
-    "title": "masnd,a",
-    "text": "nsjdasad\n"
-  },
-  {
-    "title": "id test 2",
-    "text": "did the id work? ",
-    "id": ""
-  },
-  {
-    "title": "test new routes",
-    "text": "did new routes work? ",
-    "id": "89a9"
-  },
-  {
-    "title": "dfsdfsd",
-    "text": "sdfsdfsdfsdsfs",
-    "id": "02d4"
-  },
-  {
-    "title": "dsfsd",
-    "text": "dfsdf",
-    "id": "9e6a"
+    "title": "Test the post endpoint",
+    "text": "the post endpoint should add this awesome note to the notes list",
+    "id": "c9ea"
   }
 ]
