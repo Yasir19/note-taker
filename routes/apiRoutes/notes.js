@@ -61,7 +61,9 @@ res.json(response);
 // endpoint 
 router.delete('/notes/:id',(req,res)=>{
      console.log("req params", req.params.id)
-     const deletedItem = notes.filter(({ id }) => id != req.params.id);
+     const deletedItem = notes.filter( id =>{
+         return id.id != req.params.id;
+     })
      fs.writeFile('./db/db.json', JSON.stringify(deletedItem, null, 2),
      (writeERR) =>
      writeERR
