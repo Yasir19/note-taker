@@ -10,8 +10,8 @@ router.get('/notes', (req,res)=>{
         if (err){
             res.send(404);
         }else {
-        let reviews = JSON.parse(data);
-        res.json(reviews);
+        let getNote = JSON.parse(data);
+        res.json(getNote);
         }
     });
 });
@@ -58,7 +58,7 @@ res.json(response);
     }
 });
 
-
+// endpoint 
 router.delete('/notes/:id',(req,res)=>{
      console.log("req params", req.params.id)
      const deletedItem = notes.filter(({ id }) => id != req.params.id);
