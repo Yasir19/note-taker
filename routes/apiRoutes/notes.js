@@ -41,7 +41,7 @@ router.post('/notes',(req, res)=>{
         (writeERR) => 
         writeERR
         ?console.error(writeERR)
-        :console.info('successfully updated reviews')
+        :console.info('successfully updated notes')
         );
     }
 });
