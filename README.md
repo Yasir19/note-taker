@@ -21,5 +21,6 @@ https://frozen-eyrie-46508.herokuapp.com/
 # live app url 
 https://frozen-eyrie-46508.herokuapp.com/
 
+ ![](Assets/Screen1.png)
  
- ![](assets/Screen2.png)
+ ![](Assets/Screen2.png)
