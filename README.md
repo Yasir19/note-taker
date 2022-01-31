@@ -5,6 +5,7 @@ is an application that captures the user notes and stores them in a database, th
 the app was designed by using HTML, CSS, js, node.js, express.js and Heroku to access and store user notes 
 
 # Installation
+
  to run the application on a local computer please run the following code to install all necessary dependencies 
 ====================
      npm install
